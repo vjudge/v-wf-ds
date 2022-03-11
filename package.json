@@ -1,11 +1,11 @@
 {
-  "name": "@v/wf-ds",
-  "version": "0.2.0",
+  "name": "@vjudge/wf-ds",
+  "version": "1.0.1",
   "description": "workflow ds",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "publish": "npm run prepare && npm publish",
+    "publish": "npm run prepare && npm publish --access public",
     "prepare": "npm run build",
     "build": "rm -rf dist && tsc",
     "test": "jest"
