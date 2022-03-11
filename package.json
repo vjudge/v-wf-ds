@@ -1,0 +1,33 @@
+{
+  "name": "@vj/wf-ds",
+  "version": "0.1.0",
+  "description": "workflow ds",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "publish": "npm run prepare && npm publish",
+    "prepare": "npm run build",
+    "build": "rm -rf dist && tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjudge/v-wf-ds.git"
+  },
+  "author": "gradonday@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vjudge/v-wf-ds/issues"
+  },
+  "homepage": "https://github.com/vjudge/v-wf-ds#readme",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "directory": "dist"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "typescript": "^4.6.2"
+  }
+}
