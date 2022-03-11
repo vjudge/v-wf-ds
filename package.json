@@ -1,6 +1,6 @@
 {
-  "name": "@vj/wf-ds",
-  "version": "0.1.0",
+  "name": "@v/wf-ds",
+  "version": "0.2.0",
   "description": "workflow ds",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,8 +23,7 @@
   "private": false,
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/",
-    "directory": "dist"
+    "registry": "https://registry.npmjs.org"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
